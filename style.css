@@ -1,0 +1,72 @@
+body {
+    font-family: Arial;
+    width: 600px;
+}
+
+.form-container {
+    background: #f8f6aa;
+    border: #d6d6b7 1px solid;
+    padding: 20px;
+    border-radius: 2px;
+	margin-right: 20px;
+	display: block;
+    text-align: center;
+}
+
+.input-row {
+    margin-bottom: 20px;
+}
+
+.input-row label {
+    color: #2e2422;
+}
+
+.input-field {
+    width: 100%;
+    border-radius: 2px;
+    padding: 10px;
+    border: #d3c0bf 1px solid;
+    box-sizing: border-box;
+    margin-top: 2px;
+}
+
+.span-field {
+    font: Arial;
+    font-size: small;
+    text-decoration: none;
+}
+
+.btn-submit {
+    padding: 10px 60px;
+    background: #6a5c65;
+    border: #4f444c 1px solid;
+    color: #ffffff;
+    font-size: 0.8em;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.errorMessage {
+    background-color: #b6f0fb;
+    border: #660435 1px solid;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+
+.successMessage {
+    background-color: #9fd2a1;
+    border: #91bf93 1px solid;
+    padding: 5px 10px;
+    color: #3d503d;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.info {
+    font-size: .8em;
+    color: #e66262;
+    letter-spacing: 2px;
+    padding-left: 5px;
+}
